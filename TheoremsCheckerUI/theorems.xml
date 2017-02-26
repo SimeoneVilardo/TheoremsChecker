@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<theorems>
+  <theorem>
+    <id>0</id>
+    <name>teorema di lagrange</name>
+    <intervals>
+      <value>[a,b]</value>
+      <value>(a,b)</value>
+      <value>(a,b)</value>
+    </intervals>
+    <features>
+      <value>continua</value>
+      <value>derivabile</value>
+    </features>
+    <body>Sia f:[a,b] una funzione continua nell'intervallo [a,b] e derivabile nell'intervallo (a,b), esiste allora almeno un punto c compreso in (a,b) tale che f'(c) = (f(b) - f(a))/(b-a)</body>
+  </theorem>
+  <theorem>
+    <id>1</id>
+    <name>teorema di rolle</name>
+    <intervals>
+      <value>[a,b]</value>
+      <value>(a,b)</value>
+      <value>(a,b)</value>
+    </intervals>
+    <features>
+      <value>continua</value>
+      <value>derivabile</value>
+    </features>
+    <body>Sia f:[a,b] una funzione continua nell'intervallo [a,b] e derivabile nell'intervallo (a,b) e siano f(a) = f(b), esiste allora almeno un punto c compreso in (a,b) tale che f'(c) = 0</body>
+  </theorem>
+</theorems>
